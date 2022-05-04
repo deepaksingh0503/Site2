@@ -1,0 +1,441 @@
+* {
+    cursor: url("plusreal.png"), cell;
+    font-family: 'Exo 2', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.baap{
+    margin-right: 15px;
+}
+body {
+    height: 100vh;
+    width: 100wh;
+    background: url(White.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    scrollbar-color: pink;
+ 
+}
+
+header {
+    display: flex;
+    padding-top: 4px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+}
+
+#brand {
+    /* text-decoration: underline; */
+    border-bottom: 2px dotted rgb(26, 139, 134);
+    display: flex;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px rgb(98, 216, 210);
+    /* text-transform:uppercase; */
+    font-size: 2.5vw;
+    font-weight: bolder;
+}
+
+header section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    margin: 0px 5px;
+    display: flex;
+}
+
+#loco a {
+    display: flex;
+    border: 2px dashed rgba(211, 63, 63, 0.534);
+
+}
+
+#loco a:hover {
+    display: flex;
+    border: 2px solid rgba(211, 63, 63, 0.144);
+
+}
+
+.row a {
+    display: flex;
+    padding: 0px 3px;
+    /* background-color: rgba(0, 255, 255, 0.13); */
+    background-color: rgba(142, 255, 255, 0.336);
+    /* border: 2px dashed rgba(211, 63, 63, 0.534); */
+    border: 2px solid rgba(211, 63, 63, 0.534);
+    border-radius: 10px;
+    font-family: 'Baloo Da 2', cursive;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(18, 133, 133);
+    text-decoration: none;
+}
+
+.row a:hover {
+    display: flex;
+    /* background-color: rgb(186, 209, 198); */
+    background-color: rgba(186, 209, 198, 0.466);
+    border: 2px solid rgba(211, 63, 63, 0.144);
+    text-shadow: 1px 1px gray;
+    color: white;
+    /* border: none; */
+    /* text-decoration: line-through; */
+}
+
+.row i {
+    color: rgba(255, 0, 0, 0.534);
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    padding-left: 10vh;
+}
+
+.logo img {
+    padding: 0px;
+    height: 8vw;
+    width: 10vw;
+    border: 1px solid rgba(211, 63, 63, 0.534);
+    border-radius: 10px;
+    display: flex;
+}
+
+
+#menu ul {
+    /* height: auto; */
+    align-items: center;
+    list-style: none;
+    display: flex;
+    width: 90%;
+    border-radius: 5px;
+    /* margin: 20px; */
+    justify-content: space-between;
+
+}
+
+.mu {
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+
+.mu a {
+    /* padding: 0px 10px 0px 10px; */
+    /* display: flex; */
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Baloo Da 2', cursive;
+    border: 1px solid transparent;
+}
+
+.mu a:hover {
+    display: flex;
+    /* text-shadow: 1px 1px rgba(0, 255, 234, 0.541); */
+    /* text-shadow: 1px 1px rgba(255, 51, 0, 0.452); */
+    /* text-decoration: underline; */
+    background-color: rgba(134, 243, 230, 0.61);
+    border-bottom: 3px solid rgba(0, 97, 89, 0.527);
+    border-radius: 8px;
+    /* text-shadow: none; */
+}
+
+.mu a:active {
+    background-color: rgba(0, 255, 234, 0.205);
+    border: none;
+}
+
+#menu {
+    display: flex;
+    margin-top: 20px;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 95vw;
+    height: 4vw;
+    border: 2px solid rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+}
+
+#home {
+    align-items: center;
+    margin-right: 25px;
+    /* padding-right: 15px; */
+}
+
+#navi {
+    justify-content: center;
+}
+
+#hel button:hover {
+    width: 600px;
+
+}
+
+.we {
+    /* position: absolute; */
+    word-spacing: .2rem;
+    text-transform: capitalize;
+    font-size: 2.4rem;
+    display: inline-block;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+h3{
+    margin-left: 40px;
+}
+
+.we::first-letter {
+    font-size: 150%;
+}
+
+#container {
+    margin: 3vw 0rem;
+    padding: 0rem 1vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    justify-items: center;
+    width: 100vw;
+}
+
+h3 {
+    text-indent: 4px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.para {
+    /* position: absolute; */
+    display: flex;
+    margin: auto;
+    font-family: 'Flamenco', cursive;
+    font-size: large;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.877);
+    word-spacing: .5vh;
+    letter-spacing: .1vh;
+    width: 45vw;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: left;
+    border: 2px solid rgba(255, 0, 0, 0.459);
+    border: 2px solid rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+}
+.tasveere{
+    margin-right: 15px;
+}
+
+section {
+    display: flex;
+   
+    /* flex-wrap: wrap; */
+ 
+}
+
+span {
+    margin: 10px;
+    width: 16.5rem;
+    height: 15rem;
+    display: flex;
+    background-color: rgba(187, 178, 178, 0.514);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+img {
+    /* display: flex; */
+    width: 230px;
+    border-radius: 5px;
+    height: 210px;
+}
+
+#h {
+    width: 88vw;
+    margin: auto;
+}
+span{
+    padding-right: 15px;
+}
+footer {
+    margin: 3rem 0rem;
+    padding-bottom: 2rem;
+}
+
+#foot {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+#foot h2 {
+    margin-bottom: 1rem;
+}
+
+#foot ul {
+    list-style: none;
+}
+
+#foot a {
+    margin: auto;
+    font-family: 'Baloo Da 2', cursive;
+    color: black;
+    /* font-size: 20px; */
+    text-decoration: none;
+}
+
+#foot a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1180px) {
+    #container {
+      flex-wrap: wrap;
+    }
+    .para{
+        width: 80vw;
+    }
+    #brand{
+        font-size: 2vw;
+    }
+    .row a{
+        font-size: 1.3vw;
+    }
+    span{
+        padding-right: 0px;
+    }
+  }
+  @media screen and (max-width: 870px) {
+    #brand{
+        font-size: 1.5vw;
+    }
+    .row a{
+        font-size: 1vw;
+    }
+    #menu{
+        height: 5vw;
+
+    }
+    .gayab1{
+        display: none;
+    }
+    .mu a{
+        font-size: 0.76rem;
+    }
+    span{
+        padding-right: 0px;
+    }
+  }
+  @media screen and (max-width: 590px) {
+   #fir{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+   }
+   .tasveere{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    
+   }
+   span{
+    padding-right: 0px;
+}
+   #foot{
+    /* display: flex; */
+flex-direction: column;
+justify-content: center;
+text-align: center;
+
+       /* flex-wrap: wrap; */
+   }
+   #foot ul{
+       margin: 20px;
+   }
+   #menu{
+    height: 6vw;
+}
+.gayab2{
+    display: none;
+}
+.mu a{
+    font-size: 0.64rem;
+}
+.we{
+    font-size: 2.1rem;
+}
+  }
+
+  @media screen and (max-width: 430px) {
+ 
+    #brand{
+        text-align: center;
+        /* margin-right: 50px; */
+        font-size: 2vw;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+   .gayab{
+       display: none;
+   }
+   #home{
+       margin-left: 20px;
+   }
+   span{
+    padding-right: 0px;
+}
+   #menu{
+    height: 6vw;
+
+}
+.we{
+    font-size: 1.8rem;
+}
+.gayab3{
+    display: none;
+}
+.mu a{
+    font-size: 0.5rem;
+}
+
+  }
+  @media screen and (max-width: 300px) {
+ #home{
+     display: none;
+ }
+ #brand{
+     margin-right :20vw;;
+ }
+ .mu a{
+    font-size: 0.41rem;
+}
+.we{
+    font-size: 1.5rem;
+}
+span{
+    padding-right: 0px;
+}
+  }
